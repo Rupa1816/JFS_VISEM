@@ -1,0 +1,43 @@
+table {
+    width: 80%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+}
+
+th {
+    background: lightblue;
+}
+
+.batch-title {
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 40px;
+}
+
+/* Highlight batch VI-SU-B2 */
+.highlight-batch {
+    background-color: yellow;
+    font-weight: bold;
+}
+
+.faculty-row {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 15px 0;
+}
+
+.faculty-row label {
+    font-weight: bold;
+}
+
+.faculty-row select {
+    padding: 5px;
+}
+

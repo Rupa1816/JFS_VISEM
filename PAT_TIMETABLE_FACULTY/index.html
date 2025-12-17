@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Faculty Wise Timetable</title>
+
+    <!-- PapaParse CSV -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.4.1/papaparse.min.js"></script>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h2>Faculty Wise Timetable</h2>
+
+<input type="file" id="csvFile" accept=".csv"><br><br>
+<div class="faculty-row">
+    <label for="facultySelect">Enter Faculty Name :</label>
+    <select id="facultySelect">
+        <option value="ALL">All</option>
+    </select>
+</div>
+
+<div id="output"></div>
+
+<script src="script.js"></script>
+</body>
+</html>
